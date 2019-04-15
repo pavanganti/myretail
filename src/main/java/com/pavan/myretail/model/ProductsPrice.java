@@ -2,13 +2,26 @@ package com.pavan.myretail.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "productsprice")
 public class ProductsPrice {
-	
-	@Id
-	public String id;
-	public String productid;
+
+	//@Id
+	private String id;
+	@Field("productid")
+	private String productid;
+	private String price;
+	private String currency;
+
+	public String getCurrency() {
+		return currency;
+	}
+
+	public void setCurrency(String currency) {
+		this.currency = currency;
+	}
+
 	public String getProductid() {
 		return productid;
 	}
@@ -17,13 +30,12 @@ public class ProductsPrice {
 		this.productid = productid;
 	}
 
-	public String price;
-	public String currency;
+
 	
 	public ProductsPrice() {
-		
+
 	}
-	
+
 	public String getId() {
 		return id;
 	}
@@ -36,12 +48,7 @@ public class ProductsPrice {
 	public void setPrice(String price) {
 		this.price = price;
 	}
-	public String getCurrency() {
-		return currency;
-	}
-	public void setCurrency(String currency) {
-		this.currency = currency;
-	}
+
 	public ProductsPrice(String id, String productid, String price, String currency) {
 		super();
 		this.id = id;
@@ -52,11 +59,10 @@ public class ProductsPrice {
 
 	@Override
 	public String toString() {
-		return "ProductsPrice [id=" + id + ", productid=" + productid + ", price=" + price + ", currency=" + currency
-				+ "]";
+		return "ProductsPrice [id=" + id + ", productid=" + productid + ", price=" + price + ", currency="
+				+ currency + "]";
 	}
 
-	
 	
 
 }

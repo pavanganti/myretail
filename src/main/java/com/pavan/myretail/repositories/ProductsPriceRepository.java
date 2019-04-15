@@ -6,6 +6,6 @@ import com.pavan.myretail.model.ProductsPrice;
 
 public interface ProductsPriceRepository extends MongoRepository<ProductsPrice, String> {
 	
-	ProductsPrice findByid(String id);
+	ProductsPrice findByid(String productid);
 
 }
