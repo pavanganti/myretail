@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 @Document(collection = "productsprice")
 public class ProductsPrice {
 
-	//@Id
+	@Id
 	private String id;
 	@Field("productid")
 	private String productid;
