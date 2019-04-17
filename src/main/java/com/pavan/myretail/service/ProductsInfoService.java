@@ -2,7 +2,7 @@ package com.pavan.myretail.service;
 
 import java.io.IOException;
 
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -16,7 +16,7 @@ import com.pavan.myretail.repositories.ProductsPriceRepository;
 @Service
 public class ProductsInfoService {
 	
-	
+	@Autowired
 	private ProductsPriceRepository prodPriceRepo;
 
 	public ProductInfo getProductInfo(String productid) {
@@ -26,7 +26,7 @@ public class ProductsInfoService {
 		String productDescription = getProductName(productid);
 		prodInfo.setProductId(productid);
 		prodInfo.setProductName(productDescription);
-		ProductsPrice productsPrice = prodPriceRepo.findByid(productid);
+		ProductsPrice productsPrice = prodPriceRepo.findByproductid(productid);
 		prodInfo.setProdPrice(productsPrice);
 		return prodInfo;
 	}

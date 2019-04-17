@@ -7,9 +7,16 @@ import org.springframework.data.mongodb.core.mapping.Field;
 @Document(collection = "productsprice")
 public class ProductsPrice {
 
-	@Id
 	private String id;
-	@Field("productid")
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	@Id
 	private String productid;
 	private String price;
 	private String currency;
@@ -36,12 +43,7 @@ public class ProductsPrice {
 
 	}
 
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
-	}
+	
 	public String getPrice() {
 		return price;
 	}
@@ -49,9 +51,8 @@ public class ProductsPrice {
 		this.price = price;
 	}
 
-	public ProductsPrice(String id, String productid, String price, String currency) {
+	public ProductsPrice( String productid, String price, String currency) {
 		super();
-		this.id = id;
 		this.productid = productid;
 		this.price = price;
 		this.currency = currency;
@@ -59,9 +60,11 @@ public class ProductsPrice {
 
 	@Override
 	public String toString() {
-		return "ProductsPrice [id=" + id + ", productid=" + productid + ", price=" + price + ", currency="
-				+ currency + "]";
+		return "ProductsPrice [id=" + id + ", productid=" + productid + ", price=" + price + ", currency=" + currency
+				+ "]";
 	}
+
+	
 
 	
 
