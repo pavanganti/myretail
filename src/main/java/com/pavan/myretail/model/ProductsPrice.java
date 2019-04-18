@@ -12,30 +12,43 @@ public class ProductsPrice {
 		return id;
 	}
 
-	public void setId(String id) {
-		this.id = id;
-	}
+	/*
+	 * public void setId(String id) { this.id = id; }
+	 */
 
 	@Id
 	private String productid;
-	private String price;
-	private String currency;
+	private CurrentPrice currentPrice;
+	
 
-	public String getCurrency() {
-		return currency;
+	
+	@Override
+	public String toString() {
+		return "ProductsPrice [id=" + id + ", productid=" + productid + ", currentPrice=" + currentPrice + "]";
 	}
 
-	public void setCurrency(String currency) {
-		this.currency = currency;
+	public ProductsPrice(String id, String productid, CurrentPrice currentPrice) {
+		super();
+		//this.id = id;
+		//this.productid = productid;
+		this.currentPrice = currentPrice;
+	}
+
+	public CurrentPrice getCurrentPrice() {
+		return currentPrice;
+	}
+
+	public void setCurrentPrice(CurrentPrice currentPrice) {
+		this.currentPrice = currentPrice;
 	}
 
 	public String getProductid() {
 		return productid;
 	}
 
-	public void setProductid(String productid) {
-		this.productid = productid;
-	}
+	/*
+	 * public void setProductid(String productid) { this.productid = productid; }
+	 */
 
 
 	
@@ -44,25 +57,9 @@ public class ProductsPrice {
 	}
 
 	
-	public String getPrice() {
-		return price;
-	}
-	public void setPrice(String price) {
-		this.price = price;
-	}
+	
 
-	public ProductsPrice( String productid, String price, String currency) {
-		super();
-		this.productid = productid;
-		this.price = price;
-		this.currency = currency;
-	}
-
-	@Override
-	public String toString() {
-		return "ProductsPrice [id=" + id + ", productid=" + productid + ", price=" + price + ", currency=" + currency
-				+ "]";
-	}
+	
 
 	
 

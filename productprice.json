@@ -1,0 +1,31 @@
+db.productsprice.insertMany([
+  {
+    "productid" : "12345",
+    "currentPrice":{
+        "current_price" : "11.00",
+        "currenycode" : "USD"
+    }
+    
+  },
+  {
+    "productid" : "12346",
+    "currentPrice":{
+        "current_price" : "12.00",
+        "currenycode" : "USD"
+    }
+  },
+  {
+    "productid" : "12347",
+    "currentPrice":{
+        "current_price" : "13.00",
+        "currenycode" : "USD"
+    }
+  },
+  {
+    "productid" : "13860428",
+    "currentPrice":{
+        "current_price" : "14.00",
+        "currenycode" : "USD"
+    }
+  }
+]);
