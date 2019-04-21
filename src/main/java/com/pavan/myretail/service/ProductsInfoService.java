@@ -2,6 +2,8 @@ package com.pavan.myretail.service;
 
 import java.io.IOException;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -9,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.pavan.myretail.exception.ProductIdNotFoundException;
 import com.pavan.myretail.model.ProductInfo;
 import com.pavan.myretail.model.ProductsPrice;
 import com.pavan.myretail.repositories.ProductsPriceRepository;
@@ -19,19 +22,22 @@ public class ProductsInfoService {
 	@Autowired
 	private ProductsPriceRepository prodPriceRepo;
 
-	public ProductInfo getProductInfo(String productid) {
+	public ProductInfo getProductInfo(int productid) throws ProductIdNotFoundException {
 
 		ProductInfo prodInfo = new ProductInfo();
 		//get the productname from the api
 		String productDescription = getProductName(productid);
 		prodInfo.setProductId(productid);
 		prodInfo.setProductName(productDescription);
-		ProductsPrice productsPrice = prodPriceRepo.findByproductid(productid);
-		prodInfo.setProdPrice(productsPrice);
+		ProductsPrice productsPrice = prodPriceRepo.findByid(productid);
+		if(productsPrice == null) {
+			throw new ProductIdNotFoundException("Product not in DB");
+		}
+		prodInfo.setCurrentPrice(productsPrice.getCurrentPrice());
 		return prodInfo;
 	}
 
-	public String getProductName(String productid) {
+	public String getProductName(int productid) {
 		RestTemplate restTemplate = new RestTemplate();
 		String prodDescription = "";
 		try {
@@ -60,6 +66,27 @@ public class ProductsInfoService {
 			ioe.printStackTrace();
 		}
 		return prodDescription;
+	}
+
+	public ProductInfo updateCurrentPrice(int productid, @Valid ProductInfo productInfo) throws ProductIdNotFoundException {
+		// TODO Auto-generated method stub
+		ProductInfo existingProduct = getProductInfo(productid);
+		ProductsPrice tobeUpdatePrice = new ProductsPrice();
+		if(existingProduct == null) {
+			throw new ProductIdNotFoundException("The given product is not present in DB.");
+		}
+		else {
+			if(existingProduct.getProductId()!= productInfo.getProductId()){
+				throw new ProductIdNotFoundException("The productid's in the request body to that of the product id in the DB");
+			}
+			else {
+				tobeUpdatePrice.setCurrentPrice(productInfo.getCurrentPrice());
+				tobeUpdatePrice.setProductid(productid);
+				tobeUpdatePrice = prodPriceRepo.save(tobeUpdatePrice);
+			}
+		}
+		existingProduct.setCurrentPrice(tobeUpdatePrice.getCurrentPrice());
+		return null;
 	}
 
 }

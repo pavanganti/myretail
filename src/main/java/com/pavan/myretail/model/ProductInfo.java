@@ -2,18 +2,18 @@ package com.pavan.myretail.model;
 
 public class ProductInfo {
 	
-	private String productId;
+	private int productId;
 	private String productName;
-	private ProductsPrice prodPrice;
+	private CurrentPrice currentPrice;
 	
 	public ProductInfo() {
 		
 	}
 	
-	public String getProductId() {
+	public int getProductId() {
 		return productId;
 	}
-	public void setProductId(String productId) {
+	public void setProductId(int productId) {
 		this.productId = productId;
 	}
 	public String getProductName() {
@@ -22,17 +22,28 @@ public class ProductInfo {
 	public void setProductName(String productName) {
 		this.productName = productName;
 	}
-	public ProductsPrice getProdPrice() {
-		return prodPrice;
+
+	public CurrentPrice getCurrentPrice() {
+		return currentPrice;
 	}
-	public void setProdPrice(ProductsPrice prodPrice) {
-		this.prodPrice = prodPrice;
+
+	public void setCurrentPrice(CurrentPrice currentPrice) {
+		this.currentPrice = currentPrice;
 	}
-	
-	public ProductInfo(String productId, String productName, ProductsPrice prodPrice) {
+
+	public ProductInfo(int productId, String productName, CurrentPrice currentPrice) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
-		this.prodPrice = prodPrice;
+		this.currentPrice = currentPrice;
 	}
+
+	@Override
+	public String toString() {
+		return "ProductInfo [productId=" + productId + ", productName=" + productName + ", currentPrice=" + currentPrice
+				+ "]";
+	}
+	
+	
+	
 }

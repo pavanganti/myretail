@@ -4,10 +4,8 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import com.pavan.myretail.model.ProductsPrice;
 
-public interface ProductsPriceRepository extends MongoRepository<ProductsPrice, String> {
+public interface ProductsPriceRepository extends MongoRepository<ProductsPrice, Integer> {
 	
-	ProductsPrice findByid(String productid);
-	
-	ProductsPrice findByproductid(String productid);
+	ProductsPrice findByid(int productid);
 
 }

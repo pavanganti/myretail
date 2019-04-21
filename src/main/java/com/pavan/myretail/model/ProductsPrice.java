@@ -2,35 +2,25 @@ package com.pavan.myretail.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-import org.springframework.data.mongodb.core.mapping.Field;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Document(collection = "productsprice")
 public class ProductsPrice {
 
-	private String id;
-	public String getId() {
-		return id;
-	}
-
-	/*
-	 * public void setId(String id) { this.id = id; }
-	 */
+	
 
 	@Id
-	private String productid;
+	@JsonIgnore
+	@JsonProperty("productid")
+	private int id;
 	private CurrentPrice currentPrice;
-	
 
-	
-	@Override
-	public String toString() {
-		return "ProductsPrice [id=" + id + ", productid=" + productid + ", currentPrice=" + currentPrice + "]";
-	}
-
-	public ProductsPrice(String id, String productid, CurrentPrice currentPrice) {
+	public ProductsPrice(int productid, CurrentPrice currentPrice) {
 		super();
 		//this.id = id;
-		//this.productid = productid;
+		this.id = productid;
 		this.currentPrice = currentPrice;
 	}
 
@@ -42,27 +32,24 @@ public class ProductsPrice {
 		this.currentPrice = currentPrice;
 	}
 
-	public String getProductid() {
-		return productid;
+	@JsonIgnore
+	public int getProductid() {
+		return id;
 	}
 
-	/*
-	 * public void setProductid(String productid) { this.productid = productid; }
-	 */
-
-
-	
+	@JsonIgnore
+	public void setProductid(int productid) { 
+		this.id = productid; 
+	}
+	 
 	public ProductsPrice() {
 
 	}
 
-	
-	
+	@Override
+	public String toString() {
+		return "ProductsPrice [productid=" + id + ", currentPrice=" + currentPrice + "]";
+	}
 
-	
-
-	
-
-	
 
 }
