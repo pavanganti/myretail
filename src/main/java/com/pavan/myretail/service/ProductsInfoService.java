@@ -7,6 +7,7 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -18,15 +19,21 @@ import com.pavan.myretail.repositories.ProductsPriceRepository;
 
 @Service
 public class ProductsInfoService {
-	
+
 	@Autowired
 	private ProductsPriceRepository prodPriceRepo;
 
 	public ProductInfo getProductInfo(int productid) throws ProductIdNotFoundException {
 
 		ProductInfo prodInfo = new ProductInfo();
+		String productDescription = "";
 		//get the productname from the api
-		String productDescription = getProductName(productid);
+		try {
+			productDescription = getProductName(productid);
+		}
+		catch(ProductIdNotFoundException pex) {
+			productDescription = "Default product descrption";
+		}
 		prodInfo.setProductId(productid);
 		prodInfo.setProductName(productDescription);
 		ProductsPrice productsPrice = prodPriceRepo.findByid(productid);
@@ -37,7 +44,7 @@ public class ProductsInfoService {
 		return prodInfo;
 	}
 
-	public String getProductName(int productid) {
+	public String getProductName(int productid) throws ProductIdNotFoundException {
 		RestTemplate restTemplate = new RestTemplate();
 		String prodDescription = "";
 		try {
@@ -63,7 +70,10 @@ public class ProductsInfoService {
 
 		}
 		catch(IOException ioe) {
-			ioe.printStackTrace();
+			throw new ProductIdNotFoundException("Product Description not found");
+		}
+		catch(HttpClientErrorException hex) {
+			throw new ProductIdNotFoundException("Product Description not found");
 		}
 		return prodDescription;
 	}
@@ -86,7 +96,7 @@ public class ProductsInfoService {
 			}
 		}
 		existingProduct.setCurrentPrice(tobeUpdatePrice.getCurrentPrice());
-		return null;
+		return existingProduct;
 	}
 
 }
