@@ -1,0 +1,6 @@
+version: '2'
+services:
+    mongo-instance:
+        extends:
+            file: mongodb.yml
+            service: mongo-instance

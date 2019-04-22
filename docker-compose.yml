@@ -13,6 +13,8 @@ services:
             - mongodb
         depends_on:
             - mongodb
+        networks:
+        - myretail_default
     mongodb:
         image: mongo:latest
         container_name: "mongodb"
@@ -25,3 +27,8 @@ services:
         ports:
             - 27017:27017
         command: mongod --smallfiles --logpath=/dev/null # --quiet
+        networks:
+        - myretail_default
+networks:
+   default:
+      driver: myretail_default
