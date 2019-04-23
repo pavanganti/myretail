@@ -1,0 +1,482 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2019-04-22 20:37:41.928  INFO 57742 --- [           main] com.pavan.myretail.MyRetailApplication   : Starting MyRetailApplication v1.0.1-SNAPSHOT on Anirudhs-MBP.fios-router.home with PID 57742 (/Users/anirudh/Documents/githubcode/myretail/target/myRetail-1.0.1-SNAPSHOT.jar started by anirudh in /Users/anirudh/Documents/githubcode/myretail)
+2019-04-22 20:37:41.933  INFO 57742 --- [           main] com.pavan.myretail.MyRetailApplication   : No active profile set, falling back to default profiles: default
+2019-04-22 20:37:46.390  INFO 57742 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-22 20:37:46.570  INFO 57742 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 173ms. Found 1 repository interfaces.
+2019-04-22 20:37:48.531  INFO 57742 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-04-22 20:37:48.669  INFO 57742 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-04-22 20:37:48.670  INFO 57742 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-22 20:37:49.125  INFO 57742 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-22 20:37:49.125  INFO 57742 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6859 ms
+2019-04-22 20:37:50.151  INFO 57742 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-04-22 20:37:50.152  INFO 57742 --- [           main] org.mongodb.driver.cluster               : Adding discovered server localhost:27017 to client view of cluster
+2019-04-22 20:37:50.469  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:103}] to localhost:27017
+2019-04-22 20:37:50.481  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10881866}
+2019-04-22 20:37:50.483  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2019-04-22 20:37:52.533  INFO 57742 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-22 20:37:53.422  INFO 57742 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-22 20:37:53.425  INFO 57742 --- [           main] com.pavan.myretail.MyRetailApplication   : Started MyRetailApplication in 13.775 seconds (JVM running for 15.735)
+2019-04-22 23:26:11.262  INFO 57742 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-22 23:26:11.281  INFO 57742 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-04-22 23:26:11.326  INFO 57742 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+Product Info is: {"product":{"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}}
+Product Status code is: 200 OK
+productid is: {"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}
+itemInfo is: {"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}
+productId is: "13860428"
+Product description is: "The Big Lebowski (Blu-ray)"
+2019-04-22 23:26:14.025  INFO 57742 --- [nio-8080-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:108}] to localhost:27017
+Product Info is: {"product":{"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}}
+Product Status code is: 200 OK
+productid is: {"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}
+itemInfo is: {"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}
+productId is: "13860428"
+Product description is: "The Big Lebowski (Blu-ray)"
+Product Info is: {"product":{"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}}
+Product Status code is: 200 OK
+productid is: {"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}
+itemInfo is: {"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}
+productId is: "13860428"
+Product description is: "The Big Lebowski (Blu-ray)"
+Product Info is: {"product":{"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}}
+Product Status code is: 200 OK
+productid is: {"deep_red_labels":{"total_count":2,"labels":[{"id":"twbl94","name":"Movies","type":"merchandise type","priority":0,"count":1},{"id":"gqwm8i","name":"TAC","type":"relationship type","priority":0,"count":1}]},"available_to_promise_network":{"product_id":"13860428","id_type":"TCIN","available_to_promise_quantity":0,"street_date":"2011-11-15T06:00:00.000Z","availability":"UNAVAILABLE","online_available_to_promise_quantity":0,"stores_available_to_promise_quantity":0,"availability_status":"OUT_OF_STOCK","multichannel_options":[],"is_infinite_inventory":false,"loyalty_availability_status":"OUT_OF_STOCK","loyalty_purchase_start_date_time":"1970-01-01T00:00:00.000Z","is_loyalty_purchase_enabled":false,"is_out_of_stock_in_all_store_locations":false,"is_out_of_stock_in_all_online_locations":true},"item":{"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}}
+itemInfo is: {"tcin":"13860428","bundle_components":{"is_assortment":false,"is_kit_master":false,"is_standard_item":true,"is_component":false},"dpci":"058-34-0436","upc":"025192110306","product_description":{"title":"The Big Lebowski (Blu-ray)","bullet_description":["<B>Movie Studio:</B> Universal Studios","<B>Movie Genre:</B> Comedy","<B>Software Format:</B> Blu-ray"]},"buy_url":"https://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428","variation":{},"enrichment":{"images":[{"base_url":"https://target.scene7.com/is/image/Target/","primary":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e","content_labels":[{"image_url":"GUEST_44aeda52-8c28-4090-85f1-aef7307ee20e"}]}],"sales_classification_nodes":[{"node_id":"5xswx"},{"node_id":"hp0vg"}]},"return_method":"This item can be returned to any Target store or Target.com.","handling":{},"recall_compliance":{"is_product_recalled":false},"tax_category":{"tax_class":"G","tax_code_id":99999,"tax_code":"99999"},"display_option":{"is_size_chart":false,"is_warranty":false},"fulfillment":{"is_po_box_prohibited":true,"po_box_prohibited_message":"We regret that this item cannot be shipped to PO Boxes."},"package_dimensions":{"weight":"0.18","weight_unit_of_measure":"POUND","width":"5.33","depth":"6.65","height":"0.46","dimension_unit_of_measure":"INCH"},"environmental_segmentation":{"is_lead_disclosure":false},"manufacturer":{},"product_vendors":[{"id":"4667999","manufacturer_style":"61119422","vendor_name":"UNIVERSAL HOME VIDEO"},{"id":"1258738","manufacturer_style":"025192110306","vendor_name":"BAKER AND TAYLOR"},{"id":"1979650","manufacturer_style":"61119422","vendor_name":"Universal Home Ent PFS"}],"product_classification":{"product_type":"542","product_type_name":"ELECTRONICS","item_type_name":"Movies","item_type":{"category_type":"Item Type: MMBV","type":300752,"name":"Movies"}},"product_brand":{"brand":"Universal Home Video","facet_id":"55zki"},"item_state":"READY_FOR_LAUNCH","specifications":[],"attributes":{"gift_wrapable":"N","has_prop65":"N","is_hazmat":"N","max_order_qty":10,"street_date":"2011-11-15","media_format":"Blu-ray","merch_class":"MOVIES","merch_classid":58,"merch_subclass":34,"return_method":"This item can be returned to any Target store or Target.com."},"country_of_origin":"US","relationship_type_code":"Title Authority Child","subscription_eligible":false,"ribbons":[],"tags":[],"estore_item_status_code":"A","is_proposition_65":false,"return_policies":{"user":"Regular Guest","policyDays":"30","guestMessage":"This item must be returned within 30 days of the ship date. See return policy for details."},"gifting_enabled":false}
+productId is: "13860428"
+Product description is: "The Big Lebowski (Blu-ray)"
+2019-04-22 23:27:42.795 ERROR 57742 --- [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.pavan.myretail.exception.ProductIdNotFoundException: Product not in DB] with root cause
+
+com.pavan.myretail.exception.ProductIdNotFoundException: Product not in DB
+	at com.pavan.myretail.service.ProductsInfoService.getProductInfo(ProductsInfoService.java:41) ~[classes!/:1.0.1-SNAPSHOT]
+	at com.pavan.myretail.ProductsController.getProductById(ProductsController.java:29) ~[classes!/:1.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_51]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.6.RELEASE.jar!/:5.1.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_51]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.17.jar!/:9.0.17]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-22 23:37:04.169  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-22 23:46:04.391  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-22 23:46:28.308  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:01:38.790  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:03:18.941  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:159, serverValue:1}] to localhost:27017
+2019-04-23 00:03:29.270  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2782671}
+2019-04-23 00:08:29.443  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:09:39.525  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:10:19.279  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:14:29.373  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:14:59.421  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:198, serverValue:1}] to localhost:27017
+2019-04-23 00:14:59.447  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1745842}
+2019-04-23 00:22:19.703  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:26:20.009  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:26:30.271  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:30:30.347  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:30:50.570  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:33:30.650  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:33:50.702  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:268, serverValue:1}] to localhost:27017
+2019-04-23 00:33:50.709  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1486333}
+2019-04-23 00:42:40.973  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:44:01.041  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:44:20.512  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:47:20.572  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:47:40.617  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:298, serverValue:1}] to localhost:27017
+2019-04-23 00:47:40.650  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1602444}
+2019-04-23 00:53:10.790  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+
+2019-04-23 00:56:50.939  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketReadException: Prematurely reached end of stream
+	at com.mongodb.internal.connection.SocketStream.read(SocketStream.java:92) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:554) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:425) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:289) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.sendAndReceive(CommandHelper.java:83) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.CommandHelper.executeCommand(CommandHelper.java:33) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:106) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:63) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:127) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+
+2019-04-23 00:57:10.978  INFO 57742 --- [localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:323, serverValue:2}] to localhost:27017
+2019-04-23 00:57:10.980  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1311286}
+2019-04-23 00:59:21.112  INFO 57742 --- [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_51]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_51]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_51]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_51]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_51]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62) ~[mongodb-driver-core-3.8.2.jar!/:na]
+	... 3 common frames omitted
+

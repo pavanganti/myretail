@@ -10,5 +10,5 @@ services:
           - "./data/db:/data/db"
           - "./mongodb/initialize.js:/initialize.js"
         ports:
-            - 27017:27017
+            - "27017:27017"
         command: mongod --smallfiles --logpath=/dev/null # --quiet
