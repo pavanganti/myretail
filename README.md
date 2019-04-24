@@ -1,6 +1,7 @@
 # myretail
 
 **Intrduction**
+
 Myretail is Rest API developed using Spring Boot. The API has GET and PUT methods for retrieving products and updating products current price.
 The API retrieved Product Description from an external hosted API: https://redsky.target.com/v2/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics
 
