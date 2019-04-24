@@ -30,8 +30,8 @@ Running the app as docker continers
 Steps: 
 * Assumption: The system in which this app is cloned has docker already installed with docker-compose.
 * Assumption: The system in which this app is closed has access to download the docker images from docker hub. myretail image is uploaded to the docker hub.
-1. Once the application is cloned to the folder, execute the command: ```docker-compose -f docker-compose.yml -d mongodb```
-2. Execute the command: ```docker-compose -f docker-compose.yml -d myretail```
+1. Once the application is cloned to the folder, execute the command: ```docker-compose -f docker-compose.yml up -d mongodb```
+2. Execute the command: ```docker-compose -f docker-compose.yml up -d myretail```
 
 CURL commands:
 The curlcommands.txt has the curl commands which can be executed from the terminal to view the data.
