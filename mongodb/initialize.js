@@ -12,6 +12,8 @@ db.createUser({
 
 });
 
+db.createCollection("productsprice");
+
 db.productsprice.insertMany([
 	  {
 	    "_id" : 12345,

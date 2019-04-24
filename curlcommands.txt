@@ -1,7 +1,7 @@
 GET:
 
 curl -X GET \
-  http://localhost:8080/products/13860428 \
+  http://localhost:8081/products/13860428 \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: 2e5d6fe0-73ae-4903-80a2-b40952f835d3' \
   -H 'cache-control: no-cache'
@@ -9,7 +9,7 @@ curl -X GET \
 PUT:
 
 curl -X PUT \
-  http://localhost:8080/products/13860428 \
+  http://localhost:8081/products/13860428 \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
   -H 'Postman-Token: abbf593e-1376-43c2-a559-2ec6707f41ed' \

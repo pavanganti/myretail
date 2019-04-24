@@ -9,12 +9,25 @@ services:
             - FOO=bar
         ports:
             - 8081:8081
-        links:
-            - mongo-instance
         depends_on:
-            - mongo-instance
-    mongo-instance:
-        extends:
-            file: mongodb.yml
-            service: mongo-instance
-        
+            - mongodb
+    mongodb:
+        image: mongo:3.2
+        ports:
+        - "27017:27017"
+        container_name: "mongodb"
+        privileged: true
+        environment:
+          - MONGO_DATA_DIR=/data/db
+          - MONGO_LOG_DIR=/dev/null
+        volumes:
+          - "./mongodb:/data/db"
+          - "./mongodb/initialize.js:/initialize.js"
+        command: >
+                 sh -c '
+                 sh -c 
+                 "mongod --journal &" 
+                 && sleep 2 
+                 && mongo < initialize.js 
+                 && mongod --shutdown 
+                 && mongod --auth'
