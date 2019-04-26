@@ -22,3 +22,11 @@ curl -X PUT \
         "currenycode": "USD"
     }
 }'
+
+GET - ProductID not present in DB:
+
+curl -X GET \
+  http://localhost:8081/products/1234 \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: b178ab0c-920c-41ca-abb7-705c894d1cb9' \
+  -H 'cache-control: no-cache'
